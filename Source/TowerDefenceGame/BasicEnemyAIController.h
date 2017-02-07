@@ -2,18 +2,22 @@
 
 #pragma once
 
+
 #include "AIController.h"
 #include "BasicEnemyAIController.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class TOWERDEFENCEGAME_API ABasicEnemyAIController : public AAIController
 {
+
 	GENERATED_BODY()
+
+public:
+		UPROPERTY(EditAnywhere, Category = MyProperties)
+		FVector destination;
 	
-	
-	
-	
+
+
+
 };

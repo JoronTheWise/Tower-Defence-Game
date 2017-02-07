@@ -20,6 +20,6 @@ public class TowerDefenceGameTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "TowerDefenceGame" } );
+		OutExtraModuleNames.AddRange( new string[] { "TowerDefenceGame", "Core", "CoreUObject", "Engine", "InputCore" } );
 	}
 }
